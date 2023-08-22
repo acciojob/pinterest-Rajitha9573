@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	
+	
+/* 	background-size:cover; */
+}
+.main-1{
+	width:600px;
+	height:200px;
+	
+	display:flex;
+	border-radiux:5px;
+}
+.child-1{
+	flex:3;
+	border:1px;
+}
+	img{
+	background-size:cover;
+	width:360px;
+	height:200px; 
+	}
+
+.child-2{
+	flex:2;
+	border:1px;
+	padding:50px;
+/*  	display:flex;
+ 	justify-content:column;   */
+/* 	align-items:center; */
+	
+	
+}
+h1{
+	font-size:20px;
+	padding:5px;
+}
+p{
+	font-size:10px;
+	
+}
+button{
+	font-size:8px;
+	
+	background-color:red;
+	color:white;
+}
